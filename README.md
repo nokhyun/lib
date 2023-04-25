@@ -5,9 +5,7 @@ version: 0.0.0-alpha
 implementation("com.github.nokhyun:lib:$version")
 
 ##
-* Compose 
-<br>
-Compose Text setting dp and customFontFamily
+- Compose Text setting dp and customFontFamily
 ```
  TextDp(                                
      "HelloWorld",                      

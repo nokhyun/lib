@@ -1,8 +1,18 @@
 # Android Util Library
 
 minTarget: 24
-version: 0.0.0-alpha
+version: 1.0.0
+```
 implementation("com.github.nokhyun:lib:$version")
+```
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ ```
 
 ##
 - Compose Text setting dp and customFontFamily

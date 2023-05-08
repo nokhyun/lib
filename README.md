@@ -1,7 +1,8 @@
 # Android Util Library
 
 minTarget: 24
-version: 1.0.1
+
+[![](https://jitpack.io/v/nokhyun/lib.svg)](https://jitpack.io/#nokhyun/lib)
 ```
 implementation("com.github.nokhyun:lib:$version")
 ```

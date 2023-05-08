@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import com.example.nokhyunlib.compose.FontSet
-import com.example.nokhyunlib.compose.TextDp
+import com.example.nokhyunlib.compose.Text
 import com.example.nokhyunlib.compose.textDp
 
 class ComposeMainActivity : ComponentActivity() {
@@ -24,7 +24,7 @@ class ComposeMainActivity : ComponentActivity() {
             ) {
 
                 /** TextDp Example */
-                TextDp(
+                Text(
                     "HelloWorld",
                     fontSet = FontSet(
                         fontSize = 28.textDp,

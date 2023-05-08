@@ -58,7 +58,7 @@ data class FontSet(
 )
 
 @Composable
-fun TextDp(
+fun Text(
     text: String,
     modifier: Modifier = Modifier,
     color: Color = Color.Unspecified,

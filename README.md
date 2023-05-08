@@ -1,23 +1,23 @@
 # Android Util Library
 
 minTarget: 24
-version: 1.0.0
+version: 1.0.1
 ```
 implementation("com.github.nokhyun:lib:$version")
 ```
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
  ```
 
 ##
 - Compose Text setting dp and customFontFamily
 ```
- TextDp(                                
+ Text(                                
      "HelloWorld",                      
      fontSet = FontSet(                 
          fontSize = 28.textDp,          
